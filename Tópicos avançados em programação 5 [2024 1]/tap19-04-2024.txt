@@ -1,0 +1,12 @@
+grafos:
+lista de adjacencias. para poucos nós e muitas arestas. cria uma lista de struct de nos e suas endereços para conecxões 
+matriz de adjacencias: em situações menores uma matriz de conexões funciona para pesos int ou usando 1 e 0 para identificar conexões i para j. funciona para poucos nós.
+algoritmos:
+BFS: busca em grafos. olhando vizinhanças em camadas. passando em todos os pontos. coloca os visitados na lista, e olha seus visinhos, para ter certeza que não passou mais de uma vez. voce pode construir um caminho inverso usando isso.
+vector de list pair.
+DFS:
+busca em profundidade. tenta andar o maximo possivel pra frente e quando não é possivel volta atras e procura mais rotas, ate não conseguir mais
+usa uma pilha, para guardar a sequencia que voce passou para voltar desempilha um e usa o de baixo. até a pilha ficar vazia.
+um bom problema que podemos usar isso é a estrada que se critica(estragada) deixa duas regiões isoladas
+usase um vector de lista de pares.
+while pilha is not empty, int v = pilha.top, e olha os visinhos, se existe um livre empilha ele. voce pode fazer sem a pilha também, usando recursividade. o dfs pode ser um preprocessamento para outra coisa, uma busca previa para verificar dados soltos. os vertices também tem sequencias em que foram encontrados.

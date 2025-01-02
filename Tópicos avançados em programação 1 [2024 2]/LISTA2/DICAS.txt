@@ -1,0 +1,22 @@
+desocamento de bits
+
+int c = num >> 1 // desloca bit pra direita
+logo voce esta dividindo por 2 e arredondando ra baixo
+
+numeros grandes: como fazer divisão de numeros grandes
+
+(l+r)/2 ==> l+(r-l)/2 // agora voce está descendo para baixo de zero antes de chegar na metade do numero. 
+// exemplo:
+
+(9+15)/2 == 24/2 == 12
+9 + (15-9)/2 == 9+(6/2) == 12 // valor não chega a 16
+
+
+int ordenar = sizeof(a) + sizeof(a[0])
+
+busca binaria abstrata
+nao tem um vetor tem uma função para parametro se l ou r se aproximam.
+if(f(c)){
+l++;
+senão
+r--;

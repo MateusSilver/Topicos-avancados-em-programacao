@@ -1,0 +1,4 @@
+set é uma arvore balanceada
+multi set é uma arvore balanceada onde numeros pode se repetir
+o map é como um vetor dinamico, set e multi set tambem e todos tem tempo log para inserir remover e consultar itens
+muito bom para algoritmos de pesquisa, o set é ordenado.
